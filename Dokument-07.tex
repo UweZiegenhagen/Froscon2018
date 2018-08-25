@@ -1,0 +1,89 @@
+\documentclass[ngerman]{scrreprt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{microtype}
+
+\usepackage[a4paper,landscape]{geometry}
+
+\usepackage{blindtext}
+\usepackage{booktabs}
+\usepackage{graphicx} % JPG, PNG und PDF
+
+\newcommand{\uzi}{Uwe Andreas Ziegenhagen}
+
+\newcommand{\fk}[1]{\textbf{\textit{#1}}}
+
+
+\title{Hallo Froscon!}
+\author{Uwe Ziegenhagen}
+
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=true,                     % show bookmarks bar
+    unicode=false,                      % non - Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,                        % show Acrobat’s toolbar
+    pdfmenubar=true,                        % show Acrobat’s menu
+    pdffitwindow=false,                 % window fit to page when opened
+    pdfstartview={FitH},                    % fits the width of the page to the window
+    pdftitle={My title},                        % title
+    pdfauthor={Author},                 % author
+    pdfsubject={Subject},                   % subject of the document
+    pdfcreator={Creator},                   % creator of the document
+    pdfproducer={Producer},             % producer of the document
+    pdfkeywords={keyword1, key2, key3},   % list of keywords
+    pdfnewwindow=true,                  % links in new window
+    colorlinks=true,                        % false: boxed links; true: colored links
+    linkcolor=blue,                          % color of internal links
+    filecolor=blue,                     % color of file links
+    citecolor=blue,                     % color of file links
+    urlcolor=blue                        % color of external links
+}
+
+
+
+\begin{document}
+
+\listoftables
+
+\clearpage
+
+\begin{tabular}{|l|r|c|p{5cm}|} \hline
+Hallo & Welt & Ich bin & eine kleine Tabelle in meinem Dokument \\ \hline
+Hallo Bonn 2018 & Welt Froscon & Ich bin & eine kleine Tabelle in meinem Dokument \\ \hline
+Hallo & Welt & Ich bin & eine kleine dreizeilige Tabelle in meinem Dokument \\ \hline
+\end{tabular}
+
+\vspace*{2cm}
+
+\begin{tabular}{lrcp{5cm}} \toprule[2pt]
+\textbf{Spalte 1} & \textbf{Spalte 2} & \textbf{Spalte 3} & \textbf{Spalte 4} \\ \midrule
+Hallo & Welt & Ich bin & eine kleine Tabelle in meinem Dokument \\ 
+Hallo Bonn 2018 & Welt Froscon & Ich bin & eine kleine Tabelle in meinem Dokument \\ 
+Hallo & Welt & Ich bin & eine kleine dreizeilige Tabelle in meinem Dokument \\ \bottomrule[3pt]
+\end{tabular}
+
+\begin{table}[htb]
+\caption{Hallo, ich bin eine Tabelle}
+\begin{tabular}{lrcp{5cm}} \toprule[2pt]
+\textbf{Spalte 1} & \textbf{Spalte 2} & \textbf{Spalte 3} & \textbf{Spalte 4} \\ \midrule
+Hallo & Welt & Ich bin & eine kleine Tabelle in meinem Dokument \\ 
+Hallo Bonn 2018 & Welt Froscon & Ich bin & eine kleine Tabelle in meinem Dokument \\ 
+Hallo & Welt & Ich bin & eine kleine dreizeilige Tabelle in meinem Dokument \\ \bottomrule[3pt]
+\end{tabular}
+\end{table}
+
+
+\captionof{figure}{Hallo, ich bin eine Tafdsfsbelle}
+\begin{tabular}{lrcp{5cm}} \toprule[2pt]
+\textbf{Spalte 1} & \textbf{Spalte 2} & \textbf{Spalte 3} & \textbf{Spalte 4} \\ \midrule
+Hallo & Welt & Ich bin & eine kleine Tabelle in meinem Dokument \\ 
+Hallo Bonn 2018 & Welt Froscon & Ich bin & eine kleine Tabelle in meinem Dokument \\ 
+Hallo & Welt & Ich bin & eine kleine dreizeilige Tabelle in meinem Dokument \\ \bottomrule[3pt]
+\end{tabular}
+
+
+
+\end{document}
+
