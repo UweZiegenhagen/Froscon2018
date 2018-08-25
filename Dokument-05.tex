@@ -1,0 +1,80 @@
+\documentclass[ngerman]{scrreprt}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{microtype}
+
+\usepackage{blindtext}
+
+\newcommand{\uzi}{Uwe Andreas Ziegenhagen}
+
+\newcommand{\fk}[1]{\textbf{\textit{#1}}}
+
+
+\title{Hallo Froscon!}
+\author{Uwe Ziegenhagen}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Froscon-Einführung}
+
+\section{Einführung}
+
+\subsection{Sankt Augustin}
+
+\subsubsection{Nabel der Welt}
+
+
+\blindtext[1]
+
+\begin{itemize}
+	\item Hallo
+	\item Froscon
+	\item Ich 
+	\item bin 
+	\item eine 
+	\item Aufzählung
+\end{itemize}
+
+\begin{enumerate}
+	\item Hallo
+	\item Froscon
+	
+\begin{enumerate}
+	\item Hallo
+	\item Froscon
+	\item Ich 
+	\item bin 
+	\item eine 
+	\item Aufzählung
+\end{enumerate}	
+	
+	\item Ich 
+	\item bin 
+	\item eine 
+	\item Aufzählung
+\end{enumerate}
+
+
+\begin{description}
+\item[Rot] \blindtext
+\item[Grün] ist eine Farbe
+\item[Blau] ist eine Farbe
+\end{description}
+
+\uzi
+
+Hallo, dies ist ein \textbf{fettgedrucktes} Wort.
+
+Hallo, dies ist ein \textit{kursives} Wort.
+
+Hallo, dies ist ein \textbf{\textit{kursives}} Wort.
+
+Hallo, ich bin ein \fk{Wort}
+
+\end{document}
