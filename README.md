@@ -1,2 +1,3 @@
 # Froscon2018
-Dateien für meinen 2018er TeX Workshop
+
+Dateien für meinen 2018er TeX Workshop auf der Froscon
